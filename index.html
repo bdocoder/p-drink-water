@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drink Water</title>
+    <link rel="stylesheet" href="./node_modules/tailwindcss/tailwind.css" />
+  </head>
+  <body
+    class="flex flex-col items-center min-h-screen px-6 py-4 bg-primary-light min-w-80"
+  >
+    <h1 class="mb-2 text-2xl">Drink Water</h1>
+    <div class="mb-4 text-lg">Goal: 2 Liters</div>
+    <div
+      class="w-full h-12 mb-4 border-4 max-w-60 border-primary-dark rounded-xl"
+    >
+      <div
+        id="percentage"
+        class="h-full transition-all rounded-l-lg bg-primary"
+      ></div>
+    </div>
+    <div
+      class="flex justify-between w-full mb-8 text-xl font-medium max-w-60 text-primary-dark"
+    >
+      <span id="drunk">0%</span>
+      <span id="remaining">2L remaining</span>
+    </div>
+    <p class="mb-4">Select how many glasses of water that you have drunk</p>
+    <div class="grid grid-cols-2 gap-4 p-4 sm:grid-cols-4">
+      <button class="cup">250ml</button>
+      <button class="cup">250ml</button>
+      <button class="cup">250ml</button>
+      <button class="cup">250ml</button>
+      <button class="cup">250ml</button>
+      <button class="cup">250ml</button>
+      <button class="cup">250ml</button>
+      <button class="cup">250ml</button>
+    </div>
+    <script type="module" src="/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/bdocoder/bdocoder/attributions/50projects50days.js"></script>
+  </body>
+</html>
